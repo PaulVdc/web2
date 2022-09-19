@@ -1,7 +1,7 @@
 const divs = document.querySelectorAll(".message");
 
 divs.forEach((div) => {
-  div.addEventListener("onclick", () => {
+  div.addEventListener("mouseover", () => {
     div.innerText = "Hello world!";
   });
 
