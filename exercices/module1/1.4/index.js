@@ -32,7 +32,6 @@ function showFromRedToGreenToRedWithDelays() {
   showRedLamp();
   redCounter++;
   redCounterWrapper.textContent = redCounter;
-  showOrangeLampOnlyWithDelay(delaysBetweenLightChanges);
   showGreenLampOnlyWithDelay(2 * delaysBetweenLightChanges);
   showOrangeLampOnlyWithDelay(3 * delaysBetweenLightChanges);
   showRedLampOnlyWithDelay(4 * delaysBetweenLightChanges);
